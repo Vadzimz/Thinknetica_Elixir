@@ -5,7 +5,7 @@
 | From | Across | To |
 | :---------------- | :--------------: | -----------------: |
 | in_depot | start_moving | in_motion |
-| at_stop_with_doors_closed | stop_moving | in_motion |
+| at_stop_with_doors_closed | start_moving | in_motion |
 | in_motion | stop_moving | at_stop_with_doors_closed |
 | at_stop_with_doors_closed |open_doors | at_stop_with_doors_open |
 | at_stop_with_doors_open | close_doors | at_stop_with_doors_closed |
